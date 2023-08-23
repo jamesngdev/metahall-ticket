@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>JCI Hanoi - Hội thảo Xoay nghịch cảnh Chuyển tương lai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500&family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
+  <!-- inject:css -->
+  <link rel="stylesheet" href="components/lightgallery.min.css">
+  <!-- endinject -->
+  <link rel="stylesheet" href="css/concert-dark.css">
+  <link rel="stylesheet" href="components/lity.min.css">
+</head>
+<style>
+  .lity {
+    z-index: 999999!important;
+  }
+
+  .tickets__list-item {
+    z-index: 10!important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .lity-container {
+      width: 90vw!important;
+      max-width: unset!important;
+      height: 90vh!important;
+    }
+    .lity-iframe-container {
+      min-height: unset;
+      height: 90vh!important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .lity-container {
+      width: 80vw!important;
+      max-width: unset!important;
+    }
+  }
+
+</style>
+<body>
+<header class="page-header   js-page-header">
+  <div class="navbar-container">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed    page-header__btn   js-mobile-menu-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="page-header__brand   js-page-header__brand" href="#" aria-label="Site name: Event">
+                <img src="img/logo.png"/>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse   page-header__nav" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="#gioi-thieu" class="page-header__link">giới thiệu</a></li>
+                <li><a href="#stars-screen" class="page-header__link">diễn giả</a></li>
+                <li><a href="#pricing-screen" class="page-header__link">đặt vé</a></li>
+                <li><a href="#contacts-screen" class="page-header__link">liên hệ</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="main-bg">
+    <img src="pics/main-bg.jpg" />
+  </div>
+</header>
+<div class="tickets countdown-timer">
+  <div id="countdown" class="polygon-block__timer timer top-50 start-50 translate-middle"><span class="timer__item">00<span class="timer__item-caption">days</span></span><span class="timer__item">00<span class="timer__item-caption">hours</span></span><span class="timer__item">00<span class="timer__item-caption">min</span></span><span class="timer__item">00<span class="timer__item-caption">sec</span></span></div>
+</div>
+<div class="layout-dark layout-dark__timer-screen" id="gioi-thieu">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="layout-dark__greeting-text wow fadeIn">
+          Năm 2023, "suy thoái" từ khóa được nhắc nhiều nhất trong mọi câu chuyện của xã hội. Nhiều doanh nghiệp đã thích ứng và chuyển mình, cũng có nhiều doanh nghiệp vẫn lao đao rơi sâu vào “cơn xoáy biến đổi” trên.
+          Nắm bắt được vấn đề trên, JCI Hanoi đã tạo ra sự kiện hội thảo với quy mô lên tới hơn 500 doanh nhân nhằm cung cấp thêm kiến thức “XOAY CHUYỂN” & “VƯỢT SÓNG.
+          <br/><br/><span class="">NGHE NHỮNG CÂU CHUYỆN THẬT
+          <br/>HỌC HỎI TỪ KINH NGHIỆM THẬT
+          <br/>NẮM BẮT SỰ CHUYỂN DỊCH CỦA TƯƠNG LAI</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout-light layout-light__stars-screen" id="stars-screen">
+  <div class="presentation-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
+          <h2 id="stars-screen" class="layout-light__section-header layout-light__polygons-header wow fadeIn" style="visibility: visible; animation-name: fadeIn;">QUY TỤ BỞI CÁC CHUYÊN GIA VỚI HƠN 30 NĂM KINH NGHIỆM</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+          <div class="presentation-light__item wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <p class="presentation-light__pos">Diễn giả</p>
+            <img class="presentation-light__image" src="pics/cao-thi-ngoc-dung.png" alt=""/>
+            <div class="presentation-light__mark"><span>Mrs. Cao Thị Ngọc Dung</span></div>
+            <div class="presentation-light__text-block">
+              <p class="presentation-light__header">Mrs. Cao Thị Ngọc Dung</p>
+              <p class="presentation-light__detail">Thuộc Top 50 nữ doanh nhân quyền lực nhất châu Á của Tạp chí Forbes năm 2016.
+                Chủ tịch Hội nữ doanh nhân Thành phố Hồ Chí Minh - HAWEE.
+                Chủ tịch Hội đồng quản trị Công ty cổ phần Vàng bạc đá quý Phú Nhuận
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+          <div class="presentation-light__item wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+            <p class="presentation-light__pos">Diễn giả</p>
+            <img class="presentation-light__image" src="pics/mai-huu-tin.png" alt="">
+            <div class="presentation-light__mark"><span>Mr. Mai Hữu Tín</span></div>
+            <div class="presentation-light__text-block">
+              <p class="presentation-light__header">Mr. Mai Hữu Tín</p>
+              <p class="presentation-light__detail">Unigroup là công ty mẹ của hơn 60 công ty thành viên và liên doanh hoạt động trong 8 lĩnh vực chính bao gồm: Bất động sản, Xây dựng, Giao nhận vận tải, Dịch vụ tài chính, Bán lẻ, Nông nghiệp, Dịch vụ và Sản xuất.... Chủ tịch HĐQT của Công ty Cổ phần Đầu tư U&I (Unigroup) " </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+          <div class="presentation-light__item wow fadeInDown" style="visibility: visible; animation-name: fadeInRight;">
+            <p class="presentation-light__pos">Moderator</p>
+            <img class="presentation-light__image" src="pics/tran-bang-viet.png" alt="">
+            <div class="presentation-light__mark"><span>Mr.Trần Bằng Việt</span></div>
+            <div class="presentation-light__text-block">
+              <p class="presentation-light__header">Mr.Trần Bằng Việt</p>
+              <p class="presentation-light__detail">Ông Trần Bằng Việt đã đạt được nhiều thành tựu đáng kinh ngạc trong lĩnh vực công nghệ thông tin.
+                Thành viên HĐQT của Le & Associates - một đơn vị chuyên cung cấp dịch vụ nhân sự và cung ứng nhân lực chất lượng.
+                CEO Công ty Đông A Solutions
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout-dark layout-dark__tickets-screen   tickets">
+  <div class="container">
+    <h2 id="pricing-screen" class="layout-dark__section-header wow fadeIn"><span>Đăng ký ngay hôm nay</span></h2>
+    <div id="countdown2" class="polygon-block__timer timer top-50 start-50 translate-middle"><span class="timer__item">00<span class="timer__item-caption">days</span></span><span class="timer__item">00<span class="timer__item-caption">hours</span></span><span class="timer__item">00<span class="timer__item-caption">min</span></span><span class="timer__item">00<span class="timer__item-caption">sec</span></span></div>
+    <div class="tickets__list   row">
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInUp">
+          <p class="tickets__heading">Early bird</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ trước<br/>25/08/2023</p>
+          <p class="">Mua từ 10 vé giảm 50.000<sup>đ</sup> mỗi vé</p>
+          <p class="tickets__price">350.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInDown">
+          <p class="tickets__heading">Standard</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ từ<br/>25/08 - 02/09/2023</p>
+          <p class="">Mua từ 10 vé giảm 50.000<sup>đ</sup> mỗi vé</p>
+          <p class="tickets__price">500.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInUp">
+          <p class="tickets__heading">Last minute</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ từ ngày<br/>03/09/2023</p>
+          <p class="">Mua từ 10 vé giảm 50.000<sup>đ</sup> mỗi vé</p>
+          <p class="tickets__price">600.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="tickets__list   row">
+      <div class="col-xs-12">
+        <h4 class="layout-dark__section-sub-header wow fadeIn">Ưu đãi dành riêng cho hội viên JCI</h4>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInUp">
+          <p class="tickets__heading">Early bird</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ trước<br/>25/08/2023</p>
+          <p class="tickets__price">250.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInDown">
+          <p class="tickets__heading">Standard</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ từ<br/>25/08 - 02/09/2023</p>
+          <p class="tickets__price">300.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="tickets__list-item   js-ticket wow bounceInUp">
+          <p class="tickets__heading">Last minute</p>
+          <p class="tickets__subheading">Cho khách đặt chỗ từ ngày<br/>03/09/2023</p>
+          <p class="tickets__price">400.000<sup>đ</sup></p>
+          <div class="tickets__link button button--is-round"><a class="button__link" href="https://metaticket.vn/?showId=64ded42ce95c9aaad8393436&sessionId=64ded4c8e95c9aaad8393437" data-lity>mua vé</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="schedule-screen" class="layout layout__schedule-screen">
+  <div class="schedule container">
+    <div class="row">
+      <div class="col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-1 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <h2 class="layout__section-header">Lịch sự kiện</h2>
+        <p class="schedule__text">Chi tiết về sự kiện, các mốc thời gian diễn ra</p>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-1">
+          <!-- Controls -->
+          <div class="schedule__tab-nav">
+            <ul class="tabs__nav-list js-tabs-block" role="tablist">
+              <li role="presentation" class="tabs__control-item active"><a class="tabs__link" href="#sch-first" aria-controls="first-tab" role="tab">05.09.2023</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="sch-first">
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Đón khách</h4>
+                <time class="schedule__time">13:30</time>
+                <p class="schedule__tab-text">Bắt đầu đón tiếp khách tới sự kiện</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Khai mạc sự kiện</h4>
+                <time class="schedule__time">14:05</time>
+                <p class="schedule__tab-text">Lễ khai mạc</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Giới thiệu chung nội dung chương trình</h4>
+                <time class="schedule__time">14:20</time>
+                <p class="schedule__tab-text">TVC ngắn</p>
+                <p class="schedule__tab-text">Moderator giới thiệu nội dung</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Diễn giả Cao Thị Ngọc Dung</h4>
+                <time class="schedule__time">14:45</time>
+                <p class="schedule__tab-text">Phần diễn giả thuyết trình</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Diễn giả Mai Hữu Tín</h4>
+                <time class="schedule__time">15:15/<span>15:45</span></time>
+                <p class="schedule__tab-text">Phần diễn giả thuyết trình</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Tọa đàm</h4>
+                <time class="schedule__time">15:45/<span>17:00</span></time>
+                <p class="schedule__tab-text">Tọa đàm về chủ đề</p>
+              </div>
+              <div class="schedule__tab-content">
+                <h4 class="schedule__header">Bế mạc sự kiện</h4>
+                <time class="schedule__time">17:00</time>
+                <p class="schedule__tab-text">Kết thúc sự kiện</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+
+  .sponsors-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (min-width: 768px) {
+    .sponsors-container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .sponsors-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .sponsors-container {
+      width: 1370px;
+    }
+  }
+
+</style>
+<div class="layout-dark layout-dark__sponsors-screen wow fadeIn">
+  <div class="sponsors-container">
+    <h2 id="sponsors-screen" class="layout-dark__section-header"><span>Nhà tài trợ</span></h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <div class="sponsors">
+          <p class="sponsors__text">Đơn vị bảo trợ</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/yba.png" />
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/JCI-Vietnam.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <div class="sponsors">
+          <p class="sponsors__text">Đơn vị tổ chức</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/JCI-Hanoi.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <div class="sponsors">
+          <p class="sponsors__text" style="white-space: nowrap;">Nhà tài trợ kim cương</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+            <img src="sponsors/owen.png" style="width: auto; height: 60px;"/>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+        <div class="sponsors">
+          <p class="sponsors__text">Nhà tài trợ vàng</p>
+          <div class="sponsors__features" style="display: flex; flex-direction: row; align-items: center; gap: 10px; justify-content: center;">
+
+              <img src="sponsors/metaticket.png" style="width: 150px; height: auto;"/>
+              <img src="sponsors/color-media.png" style="width: auto; height: 60px;"/>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <div class="sponsors">
+          <p class="sponsors__text">Nhà tài trợ bạc</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/az-solutions.png" style="width: 85px; height: auto"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        <div class="sponsors">
+          <p class="sponsors__text">Bảo trợ truyền thông</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/vmcc.png" style="width: auto; height: 40px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/cmsd-vietnam.png" style="width: auto; height: 20px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/gnh.jpg" style="width: auto; height: 40px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/brand-walkers.png" style="width: auto; height: 40px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/goldsun.png" style="width: auto; height: 40px"/>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-7">
+        <div class="sponsors">
+          <p class="sponsors__text">Nhà tài trợ đồng</p>
+          <div class="sponsors__features">
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/sunway.png" style="width: auto; height: 20px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/la.png" style="width: auto; height: 40px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/ori-agency.png" style="width: auto; height: 15px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/modoro.png" style="width: auto; height: 10px"/>
+            </a>
+            <a href="#" class="sponsors__features-item">
+              <img src="sponsors/harucin.jpg" style="width: auto; height: 40px"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout-dark layout-dark__map-screen">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1745034234973!2d105.8436100758841!3d21.025702580622884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab96dcfa6c43%3A0xf607e476142b1ca2!2sHanoi%20Tower%20Wedding%20%26%20Convention!5e0!3m2!1sen!2s!4v1692335290768!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="layout-dark layout-dark__contacts-screen wow fadeIn" id="contacts-screen">
+  <div class="container">
+    <h2 class="layout-dark__section-header"><span>Liên Hệ</span></h2>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <div class="contacts">
+          <h4 class="contacts__heading">Địa chỉ:</h4>
+          <p class="contacts__text">Hanoi Tower, 49 Hai Bà Trưng, Hoàn Kiếm, Hà Nội</p>
+          <p class="contacts__text">Hotline: <a href="tel:0862461462">0862-461-462</a></p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <div class="contacts">
+          <h4 class="contacts__heading">Điện thoại:</h4>
+          <p class="contacts__text">Ms. Nguyễn Thùy Dung - Giám đốc sự kiện - <a href="tel:0978889711">0978889711</a></p>
+          <p class="contacts__text">Mr. Trần Quốc Khánh - Phó Giám đốc sự kiện - <a href="tel:0836680617">0836680617</a></p>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <div class="contacts">
+          <h4 class="contacts__heading">E-mail:</h4>
+          <a class="contacts__text" href="mailto:jcihanoi@gmail.com">jcihanoi@gmail.com</a>
+          <a class="contacts__text" href="mailto:event@studio.com">support@metaticket.com.vn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/audio.js"></script>
+<!-- inject:js -->
+<script src="components/jquery.min.js"></script>
+<script src="components/bootstrap.min.js"></script>
+<script src="components/jquery-ui.min.js"></script>
+<script src="components/jquery.countdown.js"></script>
+<script src="components/lightgallery.min.js"></script>
+<script src="components/validator.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="components/lity.min.js"></script>
+<!-- endinject -->
+</body>
+</html>
